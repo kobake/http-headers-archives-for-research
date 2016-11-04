@@ -1,32 +1,22 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
-   "manifest_version":2,
-   "background":{
-      "page":"background.html"
+   "background": {
+      "page": "background.html"
    },
+   "description": "Quickly view the HTTP headers of the current tab.",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCC+6BhmYyB+CyD6N0BAbeb18fGoPQ+rqEzlfluZz0dHxiqUoPixtoYyQMiZ7XLp/VIPHlChEaAf1DgWXtdU6mplgcZyLOK8PR2AOaRChhsOwUikDLHlkVcxBw0IZ7B74FqFs/y7I6OUQxBtim24EBzqWV0j6PnO0LEdY2neEukpwIDAQAB",
+   "manifest_version": 2,
    "name": "HTTP Headers",
    "offline_enabled": true,
-   "description": "Quickly view the HTTP headers of the current tab.",
-   "version":"1.0.2",
-   "browser_action":{
-      "default_icon":{
-         "19":"img/icon19.png",
-         "38":"img/icon38.png"
-      },
-      "default_popup":"popup.html",
-      "default_title":"HTTP Headers"
+   "page_action": {
+      "default_icon": "img/icon48.png",
+      "default_popup": "popup.html"
    },
-   "icons":{
-      "16":"img/icon16.png",
-      "48":"img/icon48.png",
-      "128":"img/icon128.png"
-   },
-   "permissions":[
-      "webRequest",
-      "webRequestBlocking",
-      "tabs",
-      "http://*/",
-      "https://*/"
-   ]   
+   "permissions": [ "webRequest", "storage", "webRequestBlocking", "tabs", "http://*/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3"
 }
