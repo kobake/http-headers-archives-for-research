@@ -10,6 +10,10 @@ This repository is for reseaching on problems about the Chrome extension "HTTP H
 ## Thanks
 I could get old archives of "HTTP Headers" via https://crx.dam.io/
 
+## Related articles
+- [HTTP Headers という 5万人が使っている Chrome 拡張のマルウェア疑惑。セッション盗まれて BTC も盗まれそうになった話。 - clock-up-blog](http://blog.clock-up.jp/entry/2016/11/03/http-headers-malware)
+- [Chrome ExtensionのLive HTTP Headersの調査(CoolBar.Pro導入 Extensionが何を行うかの調査)](https://gist.github.com/mala/e87973df5029d96c9269d9431fcef5cb)
+
 ## Store screenshots
 ![](https://raw.githubusercontent.com/kobake/http-headers-archives-for-research/master/screenshots/20151105_overview.png)
 
