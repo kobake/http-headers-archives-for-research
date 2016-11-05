@@ -10,3 +10,7 @@ This repository is for reseaching on problems about the Chrome extension "HTTP H
 ## Thanks
 I could get old archives of "HTTP Headers" via https://crx.dam.io/
 
+## Store screenshots
+![](https://raw.githubusercontent.com/kobake/http-headers-archives-for-research/master/screenshots/20151105_overview.png)
+
+![](https://raw.githubusercontent.com/kobake/http-headers-archives-for-research/master/screenshots/20151105_reviews.png)
