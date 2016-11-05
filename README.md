@@ -3,6 +3,7 @@
 マルウェア疑惑ある Chrome 拡張「HTTP Headers」の調査用リポジトリです。
 
 This repository is for reseaching on problems about the Chrome extension "HTTP Headers", which should now be considered malware.
+It contains each version commits of 1.0.1, 1.0.2, 1.0.3. You can check diff.
 
 - Chrome web store link
   - https://chrome.google.com/webstore/detail/http-headers/mhbpoeinkhpajikalhfpjjafpfgjnmgk
